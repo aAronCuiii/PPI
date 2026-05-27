@@ -10,7 +10,7 @@ The main entry points are command-line Python scripts under `src/`, `train/`,
 and `infer/`.
 
 **NOTE: Large data and output artifacts are stored externally on Google Drive:
-[PPI data and outputs](https://drive.google.com/drive/folders/1OuwYYEU3DOsLKCA65QM21ZxXyyPITRYp?usp=sharing).
+[PPI data, checkpoints, and outputs](https://drive.google.com/drive/folders/1OuwYYEU3DOsLKCA65QM21ZxXyyPITRYp?usp=sharing).
 To run similarity calculation and model training, download and unzip the data
 folder from Google Drive, then place it in the repository root directory.**
 
@@ -124,7 +124,7 @@ a `protein_index.csv` file with the same protein order as the matrix rows and
 columns. The autoencoder and transformer inference scripts write this file
 automatically.
 
-### 2. Train Self-Supervised Models
+### 2. Train Self-Supervised Models (checkpoints is in Google Drive)
 
 Mask-aware autoencoder:
 
