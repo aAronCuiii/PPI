@@ -9,9 +9,10 @@ selected modules with CORUM, g:Profiler, and OpenAI-assisted interpretation.
 The main entry points are command-line Python scripts under `src/`, `train/`,
 and `infer/`.
 
-Large data and output artifacts are stored externally on Google Drive:
+**NOTE: Large data and output artifacts are stored externally on Google Drive:
 [PPI data and outputs](https://drive.google.com/drive/folders/1OuwYYEU3DOsLKCA65QM21ZxXyyPITRYp?usp=sharing).
-For running similarity calculation and training, please download and unzip the data and place the folder in ROOT directory.
+To run similarity calculation and model training, download and unzip the data
+folder from Google Drive, then place it in the repository root directory.**
 
 ## Repository Layout
 
@@ -36,9 +37,11 @@ outputs/                       Similarity matrices, graphs, modules, results
 
 ## Setup
 
-Use Python 3.10 or newer.
+Use Python 3.10 or newer. Clone the repository, then install the dependencies:
 
 ```bash
+git clone https://github.com/aAronCuiii/PPI.git
+cd PPI
 python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
