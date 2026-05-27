@@ -7,7 +7,11 @@ networks, detects modules, evaluates against CORUM complexes, and annotates
 selected modules with CORUM, g:Profiler, and OpenAI-assisted interpretation.
 
 The main entry points are command-line Python scripts under `src/`, `train/`,
-and `infer/`. Existing result artifacts are stored under `outputs/`.
+and `infer/`.
+
+Large data and output artifacts are stored externally on Google Drive:
+[PPI data and outputs](https://drive.google.com/drive/folders/1OuwYYEU3DOsLKCA65QM21ZxXyyPITRYp?usp=sharing).
+For running similarity calculation and training, please download and unzip the data and place the folder in ROOT directory.
 
 ## Repository Layout
 
@@ -48,9 +52,6 @@ OPENAI_API_KEY=your_api_key_here
 ```
 
 The OpenAI step is optional. All non-LLM analysis can run without an API key.
-
-Large data and output artifacts are stored externally on Google Drive:
-[PPI data and outputs](https://drive.google.com/drive/folders/1OuwYYEU3DOsLKCA65QM21ZxXyyPITRYp?usp=sharing).
 
 ## Input Data
 
