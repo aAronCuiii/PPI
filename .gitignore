@@ -1,6 +1,6 @@
 .claude
 .vscode
-outputs
+outputs*
 data
 checkpoints
 __pycache__

@@ -49,6 +49,9 @@ OPENAI_API_KEY=your_api_key_here
 
 The OpenAI step is optional. All non-LLM analysis can run without an API key.
 
+Large data and output artifacts are stored externally on Google Drive:
+[PPI data and outputs](https://drive.google.com/drive/folders/1OuwYYEU3DOsLKCA65QM21ZxXyyPITRYp?usp=sharing).
+
 ## Input Data
 
 The primary processed input is:
