@@ -1,0 +1,23 @@
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+
+# Training and inference
+torch
+tqdm
+
+# Visualization and graph analysis
+matplotlib
+networkx
+igraph
+plotly
+
+# Functional annotation and LLM interpretation
+gprofiler-official
+openai
+python-dotenv
+
+# Notebook helper imports
+ipython

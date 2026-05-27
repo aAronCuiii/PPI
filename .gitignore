@@ -1,0 +1,8 @@
+.claude
+.vscode
+outputs
+data
+checkpoints
+__pycache__
+.DS_Store
+.env
